@@ -108,12 +108,11 @@ To complete this lab, please follow the instructions/steps below. Please email y
 With the custom dataset, please do the following:
 
 ### Part A. Create train and test datasets:
-
 Spit the dataset into train and test datasets.
 
-    The training examples are labeled "training" in the dataset.
-    The test examples are labeled "test" in the dataset.
-    For this reason, you can use Pandas or similar to divide the dataset up into two, by splitting on those labels.
+    - The training examples are labeled "training" in the dataset.
+    - The test examples are labeled "test" in the dataset.
+    - For this reason, you can use Pandas or similar to divide the dataset up into two, by splitting on those labels.
 
  
 ### Part B. Tokenizing and describing decrypted data on pre-trained tokenizer models:
