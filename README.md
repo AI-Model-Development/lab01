@@ -104,46 +104,39 @@ To complete this lab, please follow the instructions/steps below. Please email y
 
  
 ## Activity Steps:
-
 With the custom dataset, please do the following:
+ 
+### Part A. Tokenizing and describing decrypted data on pre-trained tokenizer models:
+Do all the following tasks, only using the test dataset:
 
-### Part A. Create train and test datasets:
+    1. Run the baseline BPE tokenizer over your dataset.
+    2. Count how many names, social security numbers, or other sensitive or protected data you reveal by tokenizing the dataset.
+  
+### Part B. Create train and test datasets:
 Spit the dataset into train and test datasets.
 
     - The training examples are labeled "training" in the dataset.
     - The test examples are labeled "test" in the dataset.
-    - For this reason, you can use Pandas or similar to divide the dataset up into two, by splitting on those labels.
-
- 
-### Part B. Tokenizing and describing decrypted data on pre-trained tokenizer models:
-
-Do all the following tasks, only using the test dataset:
-
-    1. Run the BPE tokenizer over the test dataset.
-      A. (Optional) Run the WordPiece tokenzier over the test dataset.
-      B. (Optional)  Run the SentencePiece tokenizer over the test dataset.
-    2. Count how many names, social security numbers, or other sensitive or protected data you reveal by using the tokenizers on the test dataset.
-    3. In a table, report the types of sensitive data and the number you found after using the tokenizers in a table. Make sure to report the counts for each tokenizer, do not sum the counts across tokenizers.
-
- 
+    
 ### Part C. Training a custom tokenizer and describing decrypted data:
-
-    1. Spit the dataset into train and test datasets.
-        - The training examples are labeled "training" in the dataset.
-        - The test examples are labeled "test" in the dataset.
-        - For this reason, you can use Pandas or similar to divide the dataset up into two, by splitting on those labels.
-    2. Using the bpe_training.py file to train a custom BPE tokenizer model on the dataset.
+    1. Using the bpe_training.py file and your **training** dataset, train a custom BPE tokenizer model.
         - Make sure to insert the name of your new training dataset into the code before running it.
-        - Run the train_bpe.py file over your training dataset.
-    3. After training a custom BPE tokenizer model, run it over the test data.
-    4. In a table, report the types of sensitive data and the number you found after using the custom BPE tokenizer. Make sure to report the counts for each tokenizer, do not sum the counts across tokenizers.
+    2. After training a custom BPE tokenizer model, run it over the **test** dataset.
 
+### Part D. Email your teaching team to receive the codebook dataset to decrypt your tokenized test dataset:   
+    1. After you've trained the BPE tokenizer and run it over your test dataset, email your teaching team to receive your `codebook.csv' file.
+    2. Add the `codebook.csv' file to the directory where you are running your code.
+    3. Run the `<INSERT>.py` file to decrypt the Cipher tokens. 
+    4. In a table, report the types of sensitive data, as well counts, found after using the custom BPE tokenizer and codebook on your test set. 
+    
 # Submitting your lab activity to receive participation credit:
 To receive credit for completing this lab, please email your instructor and TA a link to a Google document (attached to your Andrew account) that contains the following information:
 
     1. Your name.
-    2. Sensitive Data Description --- Pre-training BPE Table: A table listing the sensitive or protected data you were able to find in your test dataset after tokenizing it with the baseline BPE model. Note this count should be based on your test dataset. An example of the table we are looking for is provided below.
-    3. Sensitive Data Description --- Post-training BPE Table: A table listing how many types of special tokens you were able to find in the dataset after training the BPE tokenizer on your training dataset. Note this count should be based on your test dataset. An example of the table we are looking for is provided below.
+    
+    2. Sensitive Data Description, Pre-training BPE Table: A table listing the sensitive or protected data you were able to find in your test dataset after tokenizing it with the baseline BPE model. Note this count should be based on your test dataset. 
+    
+    3. Sensitive Data Description, Post-training BPE Table: A table listing how many types of special tokens you were able to find in the dataset after training the BPE tokenizer on your training dataset. Note this count should be based on your test dataset.
 
 # How will participation credit be graded/evaluated? 
 Participation points ('credit') will be awarded based on completion. This means we will not grade you based on the number of 'correct' answers to the activities.
