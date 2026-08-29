@@ -69,7 +69,9 @@ BPE is a tokenizer model commonly used in large language models (LLMs), includin
 # Your Activity Datasets:
 For this activity, you'll be given a dataset that contains both `training` and `test` examples. You'll need to break this dataset into two datasets: `train.csv` and `test.csv`.
 
-## Datasheet for your dataset:
+## Your dataset:
+Your dataset will be emailed to you by the teaching team.
+
 Your datasets contain the following information:
 
 | Feature       | Description |
@@ -83,6 +85,8 @@ Your datasets contain the following information:
 | `span_char_length`     |  This gives the length of the cipher span.  |
 | `split`     |   This label identifies whether the example (row) belongs to the `train` set or the `test` set of data.  |
 
+## Wanting to use this lab material in another class or project?
+Please email Professor Kingsley and request the instructor Python files for this lab, which includes a file to automatically generate student datasets for the activity.
 
 ## Special Tokens:
 Your datasets contain special tokens. The table below provides the token and a description of what the token means.
