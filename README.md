@@ -66,6 +66,35 @@ BPE is a tokenizer model commonly used in large language models (LLMs), includin
 
 ## Other Tokenizer Models in Large Language Models:
 
+# Your Activity Datasets:
+For this activity, you'll be given a dataset that contains both `training` and `test` examples. You'll need to break this dataset into two datasets: `train.csv` and `test.csv`.
+
+## Datasheet for your dataset:
+Your datasets contains the following information:
+
+| Column Name       | Description |
+| -----------       | ----------- |
+| `example_id`           |  This is a unique identifier for the example (row).    |
+| `text`      |  This is the text data in the example (row).   |
+| `special_token`      |  This identifies the type of special token in the example (row).     |
+| `category`     | This identifies the type of example (row), e.g. financial, PII, PHI, etc.  |
+| `cipher_span`     |  This is the encrypted data you need to decrypt.  |
+| `entity_subtype`     | This identifies the type of entity in the encrypted data. For example, `credit card` means the encrypted data masks a credit card numer.   |
+| `span_char_length`     |  This gives the length of the cipher span.  |
+| `split`     |   This label identifies whether the example (row) belongs to the `train` set or the `test` set of data.  |
+
+
+## Special Tokens:
+Your datasets contain special tokens. The table below provides the token and a description of what the token means.
+
+| Special Token       | Description |
+| -----------       | ----------- |
+| `<PII>`           | PII refers to `Personally identifiable information`. PII includes personal names, email address, birth dates, or any data that can be used to identify a real person.      |
+| `<PHI>`      | PHI refers to `Personal Health Information`. PHI includes any medical or health information record associated with a real person.        |
+| `<FIN>`      | FIN refers to `Financial Information`. FIN includes credit card numbers, bank account information or any banking or financial account record associated with a real person or organization.        |
+| `<CONF>`     | CONF refers to `Confidential Information`. CONF any information that would be economically or otherwise damaging to a commercial organization or person if it were made public. Examples of CONF information include trade secrets, internal organization documents.       |
+
+
 # Instructions:
 
 To complete this lab, please follow the instructions/steps below. Please email your instructor and TA with any questions.
