@@ -149,6 +149,35 @@ Participation points ('credit') will be awarded based on completion. This means 
 ## Why do we grade class and lab activities based on completion? 
 We want you to focus on learning the technical knowledge and applying the AI engineering skills rather than worrying about correctness. Often times in AI engineering, there isn't a single correct answer but rather a set of best practices and various strategies one can employ to achieve an objective. This course aims to teach some of those AI engineering best practice and strategies so you'll be ready to leverage them in your careers. 
 
-# How to cite this lab material:
+# Attribution Statement | How to cite this lab material:
+If you use, modify or distribute this lab material, you must properly cite or credit the author.
 
+*Recommended citation:*
 ```Sara Kingsley. August 2026. AI Model Development: Lab 1: github.com/AI-Model-Development/lab01```
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+### Attribution Requirements
+GPL-3.0 requires that copyright notices, license notices, and existing attribution statements be retained when redistributing the software or derivative works. If you modify the software, you must clearly indicate that changes were made. The original authors' copyright information must not be removed.
+
+### What GPL-3.0 Requires
+
+If you distribute this software or a modified version of it, you must:
+
+- Provide a copy of the GPL-3.0 license with the distribution.
+- Make the complete corresponding source code available to recipients.
+- License any modifications or derivative works under GPL-3.0 as well.
+- Clearly document any changes you make to the original code.
+- Preserve existing copyright notices and license notices.
+- Provide recipients with the same rights to use, study, modify, and redistribute the software that you received.
+
+### Additional Notes
+
+- Commercial use is permitted.
+- Private/internal use does not require source code disclosure.
+- The software is provided **without warranty** or liability.
+- You may not impose additional restrictions that limit the rights granted by the GPL-3.0 license.
+
+For the full license text, see the [LICENSE](le or visit the GNU Project website: https://www.gnu.org/licenses/gpl-3.0.en.html. 【1-d432b6】
