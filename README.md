@@ -85,7 +85,7 @@ Your datasets contain the following information:
 | `span_char_length`     |  This gives the length of the cipher span.  |
 | `split`     |   This label identifies whether the example (row) belongs to the `train` set or the `test` set of data.  |
 
-## Wanting to use this lab material in another class or project?
+### Wanting to use this lab material in another class or project?
 Please email Professor Kingsley and request the instructor Python files for this lab, which includes a file to automatically generate student datasets for the activity.
 
 ## Special Tokens:
