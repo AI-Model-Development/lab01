@@ -86,7 +86,7 @@ Your datasets contain the following information:
 | `split`     |   This label identifies whether the example (row) belongs to the `train` set or the `test` set of data.  |
 
 ### Wanting to use this lab material in another class or project?
-Please email Professor Kingsley and request the instructor Python files for this lab, which includes a file to automatically generate student datasets for the activity.
+Please email Professor Kingsley and request the instructor Python files for this lab, which includes a file to automatically generate student datasets for the activity. Please use the attribution statement required by this lab's license to properly credit the author, thank you!
 
 ## Special Tokens:
 Your datasets contain special tokens. The table below provides the token and a description of what the token means.
