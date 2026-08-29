@@ -70,7 +70,7 @@ BPE is a tokenizer model commonly used in large language models (LLMs), includin
 For this activity, you'll be given a dataset that contains both `training` and `test` examples. You'll need to break this dataset into two datasets: `train.csv` and `test.csv`.
 
 ## Datasheet for your dataset:
-Your datasets contains the following information:
+Your datasets contain the following information:
 
 | Feature       | Description |
 | -----------       | ----------- |
