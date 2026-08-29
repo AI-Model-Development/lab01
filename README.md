@@ -72,7 +72,7 @@ For this activity, you'll be given a dataset that contains both `training` and `
 ## Datasheet for your dataset:
 Your datasets contains the following information:
 
-| Column Name       | Description |
+| Feature       | Description |
 | -----------       | ----------- |
 | `example_id`           |  This is a unique identifier for the example (row).    |
 | `text`      |  This is the text data in the example (row).   |
