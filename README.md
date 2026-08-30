@@ -30,7 +30,14 @@ There are a number of reasons why AI developers tokenize datasets. These reasons
 - Preparing the date to use for training and creating a vector store for a retrieval augmented generation (RAG) system.
 
 # This Lab involves training a BPE tokenizer model to decrypt data.
-In this lab, you'll be given a custom dataset.
+In this lab, you'll be given a custom dataset. 
+•	Please email the teaching team if you did not receive your individual custom dataset.
+
+**Things to know about the datasets:**
+•	Every student will be given a unique dataset.
+•	Each dataset has a unique set of answer keys. For this reason, while you may consult with your peers on strategies for completing this lab, please do not share datasets.
+•	The teaching team has the answer keys to each individual dataset. 
+•	Please follow the instructions carefully and request the answer key from the teaching team once you’ve received instructions (in your terminal) to do that.
 
 **Things to know about the datasets:**
         
@@ -51,27 +58,26 @@ Please do not use AI Assistance to complete this lab. It shouldn't be necessary.
 
 - You may need to install a few Python dependencies, like Pandas. However, we have tried to only or mostly use base Python to avoid the need to install dependencies. 
 
-## (Optional) Recommended pre-reading:
-**BPE Tokenizer Model:**
+# Software for this Lab:
+You’ll need these Python files to complete this lab activity:
+•	baseline_bpe_tokenizer.py
+•	pretokenization_count_decrypted_tokens.py
+•	create_train_set.py
+•	create_test_set.py
+•	train_customized_bpe.py
+•	post_count_descrypted_tokens.py
 
-Since you will be training an (example) BPE tokenizer, it is recommended to familiarize yourself with BPE by reading these articles:
+      These software files are published to our internal course page and this Github repo. 
 
-    * Article.
-    
-    * Article.
-    
-    * Article.
 
-BPE is a tokenizer model commonly used in large language models (LLMs), including OpenAI's GPT.
+# The Data Required for this Lab:
+For this activity, the teaching team will email you a dataset that contains both training and test examples. You'll need to break this dataset into two datasets: train.csv and test.csv. Instructions are provided, below, about how to do this.
+In summary, you’ll need this data to complete the assignment:
+      - **Username:** you’ll be given a username for the assignment. You’ll need this to complete the activity submission. 
+      - **Activity dataset:** Your activity dataset will be emailed to you by the teaching team.
+      - **Answer key:** After completing a few of the steps, you’ll need an answer key. To obtain this key, email the teaching team, but ONLY once you’ve received instructions (in your terminal) to do that. 
 
-## Other Tokenizer Models in Large Language Models:
-
-# Your Activity Datasets:
-For this activity, you'll be given a dataset that contains both `training` and `test` examples. You'll need to break this dataset into two datasets: `train.csv` and `test.csv`.
-
-      Your dataset will be emailed to you by the teaching team.
-
-## Your dataset:
+## Dataset description:
 Your datasets contain the following information:
 
 | Feature       | Description |
