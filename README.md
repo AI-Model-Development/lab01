@@ -106,37 +106,50 @@ To complete this lab, please follow the instructions/steps below. Please email y
 ## Activity Steps:
 With the custom dataset, please do the following:
  
-### Part A. Tokenizing and describing decrypted data on pre-trained tokenizer models:
-Do all the following tasks, only using the test dataset:
-
-    1. Run the baseline BPE tokenizer over your dataset.
-    2. Count how many names, social security numbers, or other sensitive or protected data you reveal by tokenizing the dataset.
+### Part A. Tokenizing data on a toy BPE tokenizer:
+Do all the following tasks, only using your dataset:
+1.	In your terminal, run the file: baseline_bpe_tokenizer.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
   
-### Part B. Create train and test datasets:
-Spit the dataset into train and test datasets.
+### Part B. Pretokenization counts of decrypted sensitive tokens.
+Count the number of decrypted sensitive tokens revealed during pretokenization (the stage of tokenizing a dataset before training a tokenizer model on the dataset).
+1.	In your terminal, run the file: pretokenization_count_decrypted_tokens.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
 
-    - The training examples are labeled "training" in the dataset.
-    - The test examples are labeled "test" in the dataset.
-    
-### Part C. Training a custom tokenizer and describing decrypted data:
-    1. Using the bpe_training.py file and your **training** dataset, train a custom BPE tokenizer model.
-        - Make sure to insert the name of your new training dataset into the code before running it.
-    2. After training a custom BPE tokenizer model, run it over the **test** dataset.
+### Part C. Create a training dataset:
+Create a training dataset from your activity dataset. 
+1.	In your terminal, run the file: create_train_set.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
+  
+### Part D. Create a test dataset:
+Create a test (evaluation) dataset from your activity dataset. 
+1.	In your terminal, run the file: create_test_set.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
 
-### Part D. Email your teaching team to receive the codebook dataset to decrypt your tokenized test dataset:   
-    1. After you've trained the BPE tokenizer and run it over your test dataset, email your teaching team to receive your `codebook.csv' file.
-    2. Add the `codebook.csv' file to the directory where you are running your code.
-    3. Run the `<INSERT>.py` file to decrypt the Cipher tokens. 
-    4. In a table, report the types of sensitive data, as well counts, found after using the custom BPE tokenizer and codebook on your test set. 
+
+### Part E. Training a custom tokenizer and describing decrypted data:
+Train a custom BPE tokenizer using your individual activity dataset. 
+1.	In your terminal, run the file: train_custom_bpe.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
+
+### Part F. Email your teaching team: send your activity files & request answer key.
+1. After you've trained the BPE tokenizer, email your teaching team to receive your `codebook.csv' file (the name of the CSV file you receive might differ somewhat).
+2. Add the `codebook.csv' file to the directory where you are running your code.
+
+## Part G. Post tokenization counts of decrypted sensitive tokens.
+Count the number of decrypted sensitive tokens revealed during post-tokenization (the stage of tokenizing a dataset AFTER training a tokenizer model).
+1.	In your terminal, run the file: post_count_decrypted_tokens.py
+2.	Observe the output in your terminal.
+3.	Complete the Google form questions in the section about this PY file.
+
     
 # Submitting your lab activity to receive participation credit:
-To receive credit for completing this lab, please email your instructor and TA a link to a Google document (attached to your Andrew account) that contains the following information:
-
-    1. Your name.
-    
-    2. Sensitive Data Description, Pre-training BPE Table: A table listing the sensitive or protected data you were able to find in your test dataset after tokenizing it with the baseline BPE model. Note this count should be based on your test dataset. 
-    
-    3. Sensitive Data Description, Post-training BPE Table: A table listing how many types of special tokens you were able to find in the dataset after training the BPE tokenizer on your training dataset. Note this count should be based on your test dataset.
+To receive credit for completing this lab, please complete the Google form/survey published to our internal Course page (using your university email).
 
 # How will participation credit be graded/evaluated? 
 Participation points ('credit') will be awarded based on completion. This means we will not grade you based on the number of 'correct' answers to the activities.
